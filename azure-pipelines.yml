@@ -20,12 +20,8 @@ steps:
   inputs:
     serverEndpoint: 'Test'
     appSlug: 'mgerum-jnesis/Test-android-azure-devops'
-    appFile: 
+    appFile: 'app/build/outputs/apk/debug/app-debug.apk'
     symbolsOption: 'Android'
     releaseNotesOption: 'input'
+    releaseNotesInput: '123'
     destinationType: 'groups'
-    jdkVersionOption: '1.8'
-    jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/TEST-*.xml'
-    tasks: 'build'
