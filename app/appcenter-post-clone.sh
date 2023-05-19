@@ -2,3 +2,5 @@
 
 echo "Test password"
 echo $TEST
+
+npm install
