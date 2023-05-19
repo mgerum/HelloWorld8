@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 echo "Test password"
-echo $TEST
+echo "${TEST:0:5}"
 
 npm install
